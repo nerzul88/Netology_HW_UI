@@ -10,11 +10,18 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        self.window?.rootViewController = setupStoryboard().instantiateInitialViewController()
+        
         return true
+    }
+    
+    func setupStoryboard() -> UIStoryboard {
+        let currentStoryboard: UIStoryboard! = UIStoryboard(name: "Profile", bundle: nil)
+        return currentStoryboard
     }
 
     // MARK: UISceneSession Lifecycle

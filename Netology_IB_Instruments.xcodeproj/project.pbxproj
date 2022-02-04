@@ -14,6 +14,10 @@
 		BDBE666827AD6258001CFD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBE666727AD6258001CFD12 /* Assets.xcassets */; };
 		BDBE666B27AD6258001CFD12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBE666927AD6258001CFD12 /* LaunchScreen.storyboard */; };
 		BDBE667427AD638C001CFD12 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BDBE667327AD638C001CFD12 /* .gitignore */; };
+		BDBE667727AD6922001CFD12 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBE667627AD6922001CFD12 /* ProfileView.xib */; };
+		BDBE667A27AD7280001CFD12 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE667927AD7280001CFD12 /* ProfileView.swift */; };
+		BDBE667D27AD760C001CFD12 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBE667C27AD760C001CFD12 /* Profile.storyboard */; };
+		BDBE668027AD7638001CFD12 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE667F27AD7638001CFD12 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		BDBE666A27AD6258001CFD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDBE666C27AD6258001CFD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDBE667327AD638C001CFD12 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BDBE667627AD6922001CFD12 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		BDBE667927AD7280001CFD12 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BDBE667C27AD760C001CFD12 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		BDBE667F27AD7638001CFD12 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				BDBE666027AD6251001CFD12 /* SceneDelegate.swift */,
 				BDBE666227AD6251001CFD12 /* ViewController.swift */,
 				BDBE666427AD6251001CFD12 /* Main.storyboard */,
+				BDBE667C27AD760C001CFD12 /* Profile.storyboard */,
+				BDBE667F27AD7638001CFD12 /* ProfileViewController.swift */,
+				BDBE667627AD6922001CFD12 /* ProfileView.xib */,
+				BDBE667927AD7280001CFD12 /* ProfileView.swift */,
 				BDBE666727AD6258001CFD12 /* Assets.xcassets */,
 				BDBE666927AD6258001CFD12 /* LaunchScreen.storyboard */,
 				BDBE666C27AD6258001CFD12 /* Info.plist */,
@@ -127,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBE667D27AD760C001CFD12 /* Profile.storyboard in Resources */,
 				BDBE667427AD638C001CFD12 /* .gitignore in Resources */,
+				BDBE667727AD6922001CFD12 /* ProfileView.xib in Resources */,
 				BDBE666B27AD6258001CFD12 /* LaunchScreen.storyboard in Resources */,
 				BDBE666827AD6258001CFD12 /* Assets.xcassets in Resources */,
 				BDBE666627AD6251001CFD12 /* Main.storyboard in Resources */,
@@ -141,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBE667A27AD7280001CFD12 /* ProfileView.swift in Sources */,
 				BDBE666327AD6251001CFD12 /* ViewController.swift in Sources */,
+				BDBE668027AD7638001CFD12 /* ProfileViewController.swift in Sources */,
 				BDBE665F27AD6251001CFD12 /* AppDelegate.swift in Sources */,
 				BDBE666127AD6251001CFD12 /* SceneDelegate.swift in Sources */,
 			);
@@ -300,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Netology-IB-Instruments";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +335,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Netology-IB-Instruments";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
